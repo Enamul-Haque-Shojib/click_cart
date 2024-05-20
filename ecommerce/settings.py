@@ -57,6 +57,8 @@ THIRD_PARTY_APPS = [
 
 LOCAL_APPS = [
      'apps.account',
+     'apps.cart',
+     'apps.wishlist',
 ]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
@@ -157,7 +159,7 @@ AUTH_USER_MODEL = 'account.User'
 
 
 EMAIL_BACKEND = env('EMAIL_BACKEND')
-EMAIL_HOST = ('EMAIL_HOST')
+EMAIL_HOST = env('EMAIL_HOST')
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
 EMAIL_HOST_USER = env("EMAIL")
