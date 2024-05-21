@@ -26,7 +26,7 @@ urlpatterns = [
     path("api/v1/profile/", include("apps.account.urls")),
     path("api/v1/products/", include("apps.product.urls")),
 ]
-
+urlpatterns += static(settings.MEDIA_URL)
 
 admin.site.site_header = "Click Cart Admin"
 admin.site.site_title = "Click Cart Admin Portal"
