@@ -65,6 +65,9 @@ class CustomerProfile(models.Model):
         )
     shipping_address = models.TextField(default="Write your shipping Address")
     billing_address = models.TextField(default="Write your billing Address")
+    
+    def __str__(self):
+        return self.user.username
 
 
 class VendorProfile(models.Model):
@@ -87,6 +90,9 @@ class VendorProfile(models.Model):
         verbose_name=_("About Company"), default="say something about yourself"
         )
     address = models.TextField(default="Address")
+
+    def __str__(self):
+        return self.company_name
 
 
 @receiver(post_save, sender=User)
