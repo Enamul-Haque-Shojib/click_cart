@@ -12,7 +12,7 @@ class ParentCategory(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
     
     def __str__(self):
-        return f"Parent Category: {self.parent_category}"
+        return self.parent_category
     
 
 class SubCategory(models.Model):
@@ -24,7 +24,7 @@ class SubCategory(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
 
     def __str__(self):
-        return f"Sub Category: {self.sub_category}"
+        return self.sub_category
 
 
 class Size(models.Model):
@@ -35,7 +35,10 @@ class Size(models.Model):
 
 
 class Color(models.Model):
-    product_size = models.CharField(max_length=30)
+    product_color = models.CharField(max_length=30)
+    
+    def __str__(self):
+        return self.product_color
 
 
 class Product(models.Model):
