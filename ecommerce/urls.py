@@ -23,6 +23,8 @@ urlpatterns = [
     path('api/v1/admin/', admin.site.urls),
     path("api/v1/auth/", include("djoser.urls")),
     path("api/v1/auth/", include("djoser.urls.jwt")),
+    path("api/v1/profile/", include("apps.account.urls")),
+    path("api/v1/products/", include("apps.product.urls")),
 ]
 
 
