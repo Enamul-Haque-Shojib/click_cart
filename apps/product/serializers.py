@@ -6,19 +6,13 @@ from apps.product.models import (ParentCategory, SubCategory, Size, Color,
 class ParentCategorySerializers(serializers.ModelSerializer):
     class Meta:
         model = ParentCategory
-        fields = [
-            'parent_category',
-        ]
+        fields = "__all__"
 
 
 class SubCategorySerializers(serializers.ModelSerializer):
     class Meta:
         model = SubCategory
-        fields = [
-            'parent',
-            'sub_category',
-            'slug'
-        ]
+        fields = "__all__"
 
 
 class SizeSerializers(serializers.ModelSerializer):
