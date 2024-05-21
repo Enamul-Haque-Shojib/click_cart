@@ -420,3 +420,5 @@ AssertionError: The field 'phone_number' was declared on serializer UserSerializ
 2024-05-21 18:54:25,786 django.utils.autoreload INFO     Watching for file changes with StatReloader
 2024-05-21 18:54:28,269 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\ecommerce\urls.py changed, reloading.
 2024-05-21 18:54:29,678 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 19:16:54,747 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 19:17:13,097 django.request WARNING  Not Found: /
