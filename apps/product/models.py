@@ -78,7 +78,7 @@ class ProductImage(models.Model):
         Product, on_delete=models.CASCADE, related_name="images"
     )
     image = models.ImageField(
-        upload_to="product/images/", default="", null=True, blank=True
+        upload_to="product/media/uploads/", default="", null=True, blank=True
     )
 
     def __str__(self):
