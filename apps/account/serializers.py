@@ -1,7 +1,7 @@
 from django.contrib.auth import get_user_model
 from djoser.serializers import UserCreateSerializer
 from rest_framework import serializers
-
+from apps.account.models import CustomerProfile, VendorProfile
 User = get_user_model()
 
 
@@ -11,7 +11,8 @@ class UserSerializer(serializers.ModelSerializer):
     profile_photo = serializers.ImageField(required=False)
     first_name = serializers.SerializerMethodField()
     last_name = serializers.SerializerMethodField()
-    full_name = serializers.SerializerMethodField(source="get_full_name")
+    # full_name = serializers.SerializerMethodField(source="get_full_name")
+    # role = serializers.CharField(source="user.role")
     
     class Meta:
         model = User
@@ -21,10 +22,11 @@ class UserSerializer(serializers.ModelSerializer):
             "email",
             "first_name",
             "last_name",
-            "full_name",
             "gender",
             "phone_number",
-            "profile_photo"
+            "profile_photo",
+            # "full_name",
+            # "role"
         ]
 
     def get_first_name(self, obj):
@@ -43,4 +45,28 @@ class UserSerializer(serializers.ModelSerializer):
 class CreateUserSerializer(UserCreateSerializer):
     class Meta(UserCreateSerializer.Meta):
         model = User
-        fields = ["id", "username", "email", "first_name", "last_name", "password"]
+        fields = ["username", "email", "first_name", "last_name", "password", 'role']
+
+
+class CustomerProfileSerializers(serializers.ModelSerializer):
+    class Meta:
+        model = CustomerProfile
+        fields = "__all__"
+
+
+class VendorProfileSerializers(serializers.ModelSerializer):
+    class Meta:
+        model = VendorProfile
+        fields = "__all__"
+
+
+class UpdateCustomerProfileSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = CustomerProfile
+        fields = "__all__"
+
+
+class UpdateVendorProfileSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = VendorProfile
+        fields = "__all__"

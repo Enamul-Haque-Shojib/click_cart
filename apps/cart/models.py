@@ -1,11 +1,9 @@
 from django.db import models
 from django.utils import timezone
 from django.conf import settings
-
+from apps.product.models import Product
+import uuid
 # Create your models here.
-
-class Product(models.Model):
-    pass
 
 class Cart(models.Model):
     cart_id = id = models.UUIDField(default=uuid.uuid4, primary_key=True)

@@ -9,11 +9,16 @@ https://docs.djangoproject.com/en/5.0/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.0/ref/settings/
 """
-
+import os
+import logging
+import logging.config
 from datetime import timedelta
 from pathlib import Path
 import environ
-env = environ.Env()
+from django.utils.log import DEFAULT_LOGGING
+
+
+env = environ.Env(DEBUG=(bool, False))
 environ.Env.read_env()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -29,6 +34,8 @@ SECRET_KEY = env('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+CSRF_TRUSTED_ORIGINS = ['https://click-cart-bzwk.onrender.com','https://*.127.0.0.1']
+
 ALLOWED_HOSTS = ['*']
 CORS_ORIGIN_ALLOW_ALL = True
 
@@ -42,10 +49,8 @@ DJANGO_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    "django.contrib.sites",
 ]
 
-SITE_ID = 1
 
 THIRD_PARTY_APPS = [
     "rest_framework",
@@ -57,8 +62,12 @@ THIRD_PARTY_APPS = [
 
 LOCAL_APPS = [
      'apps.account',
+<<<<<<< HEAD
      'apps.cart',
      'apps.wishlist',
+=======
+     'apps.product'
+>>>>>>> 07d58725b9dc825f034bfda7f42d569a177bb309
 ]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
@@ -98,17 +107,24 @@ WSGI_APPLICATION = 'ecommerce.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
-DATABASES = {
-    "default": {
-        "ENGINE": env("POSTGRES_ENGINE"),
-        "NAME": env("DB_NAME"),
-        "USER": env("DB_USER"),
-        "PASSWORD": env("DB_PASS"),
-        "HOST": env("DB_HOST"),
-        "PORT": env("DB_PORT"),
-    }
-}  
+# DATABASES = {
+#     "default": {
+#         "ENGINE": env("POSTGRES_ENGINE"),
+#         "NAME": env("DB_NAME"),
+#         "USER": env("DB_USER"),
+#         "PASSWORD": env("DB_PASS"),
+#         "HOST": env("DB_HOST"),
+#         "PORT": env("DB_PORT"),
+#     }
+# }  
 
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
@@ -157,13 +173,17 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 AUTH_USER_MODEL = 'account.User'
 
-
 EMAIL_BACKEND = env('EMAIL_BACKEND')
+<<<<<<< HEAD
 EMAIL_HOST = env('EMAIL_HOST')
+=======
+EMAIL_HOST = env("EMAIL_HOST")
+>>>>>>> 07d58725b9dc825f034bfda7f42d569a177bb309
 EMAIL_USE_TLS = True
-EMAIL_PORT = 587
-EMAIL_HOST_USER = env("EMAIL")
-EMAIL_HOST_PASSWORD = env("EMAIL_PASSWORD")
+EMAIL_PORT = env("EMAIL_PORT")
+EMAIL_HOST_USER = env("EMAIL_HOST_USER")
+EMAIL_HOST_PASSWORD = env("EMAIL_HOST_PASSWORD")
+DEFAULT_FROM_EMAIL = "contact.clickcart.bd@gmail.com"
 
 REST_FRAMEWORK = {
     "DEFAULT_AUTHENTICATION_CLASSES": (
@@ -204,3 +224,47 @@ DJOSER = {
         "user_delete": "djoser.serializers.UserDeleteSerializer",
     },
 }
+
+
+LOG_DIR = BASE_DIR / 'logs'
+if not os.path.exists(LOG_DIR):
+    os.makedirs(LOG_DIR)
+
+logger = logging.getLogger(__name__)
+
+LOG_LEVEL = "INFO"
+
+logging.config.dictConfig(
+    {
+        "version": 1,
+        "disable_existing_loggers": False,
+        "formatters": {
+            "console": {
+                "format": "%(asctime)s %(name)-12s %(levelname)-8s %(message)s",
+            },
+            "file": {"format": "%(asctime)s %(name)-12s %(levelname)-8s %(message)s"},
+            "django.server": DEFAULT_LOGGING["formatters"]["django.server"],
+        },
+        "handlers": {
+            "console": {
+                "class": "logging.StreamHandler",
+                "formatter": "console",
+            },
+            "file": {
+                "level": "INFO",
+                "class": "logging.FileHandler",
+                "formatter": "file",
+                "filename": os.path.join(LOG_DIR, "click_cart.log"),
+            },
+            "django.server": DEFAULT_LOGGING["handlers"]["django.server"],
+        },
+        "loggers": {
+            "": {"level": "INFO", "handlers": ["console", "file"], "propagate": False},
+            "apps": {"level": "INFO", "handlers": ["console"], "propagate": False},
+            "django.server": DEFAULT_LOGGING["loggers"]["django.server"],
+        },
+    }
+)
+
+
+DOMAIN = env('DOMAIN')

@@ -15,7 +15,7 @@ class User(AbstractBaseUser, PermissionsMixin):
         VENDOR = "VENDOR", "Vendor"
         CUSTOMER = "CUSTOMER", "Customer"
 
-    type = models.CharField(
+    role = models.CharField(
         max_length=20, choices=Types.choices, default=Types.CUSTOMER
     )
     user_id = models.AutoField(primary_key=True, editable=False)
@@ -55,7 +55,7 @@ class CustomerProfile(models.Model):
         OTHERS = 'OTHERS', 'Others'
 
     user = models.OneToOneField(User, on_delete=models.CASCADE)
-    profile_photo = models.ImageField(default='./static/images/user.png')
+    profile_photo = models.ImageField(upload_to='account/images/', default=None)
     phone_number = models.CharField(max_length=14, default="+8801836541269")
     gender = models.CharField(
         max_length=20, choices=GenderType.choices, default=GenderType.MALE
@@ -65,6 +65,9 @@ class CustomerProfile(models.Model):
         )
     shipping_address = models.TextField(default="Write your shipping Address")
     billing_address = models.TextField(default="Write your billing Address")
+    
+    def __str__(self):
+        return self.user.username
 
 
 class VendorProfile(models.Model):
@@ -78,8 +81,8 @@ class VendorProfile(models.Model):
         )
     company_name = models.CharField(max_length=255)
     contact_person = models.CharField(max_length=255)
-    profile_photo = models.ImageField(default=None)
-    phone_number = models.CharField(max_length=30)
+    profile_photo = models.ImageField(upload_to='account/images/', default=None)
+    phone_number = models.CharField(max_length=14, default="+8801836541269")
     gender = models.CharField(
         max_length=20, choices=GenderType.choices, default=GenderType.MALE
         )
@@ -88,11 +91,14 @@ class VendorProfile(models.Model):
         )
     address = models.TextField(default="Address")
 
+    def __str__(self):
+        return self.company_name
+
 
 @receiver(post_save, sender=User)
 def create_user_profile(sender, instance, created, **kwargs):
     if created:
-        if instance.type == 'Customer':
+        if instance.role.lower() == 'customer':
             CustomerProfile.objects.create(user=instance)
-        elif instance.type == 'Vendor':
+        elif instance.role.lower() == 'vendor':
             VendorProfile.objects.create(user=instance)

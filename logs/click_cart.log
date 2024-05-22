@@ -1,0 +1,424 @@
+2024-05-21 10:53:34,969 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 10:54:37,546 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 10:55:17,695 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 10:59:40,420 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 10:59:57,916 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\product\urls.py changed, reloading.
+2024-05-21 10:59:59,506 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:00:01,860 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\product\urls.py changed, reloading.
+2024-05-21 11:00:02,935 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:00:07,770 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\product\urls.py changed, reloading.
+2024-05-21 11:00:08,668 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:00:16,984 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\product\urls.py changed, reloading.
+2024-05-21 11:00:17,844 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:00:19,627 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\product\urls.py changed, reloading.
+2024-05-21 11:00:20,532 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:00:23,307 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\product\urls.py changed, reloading.
+2024-05-21 11:00:24,132 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:00:28,017 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\product\urls.py changed, reloading.
+2024-05-21 11:00:28,830 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:00:32,872 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\product\urls.py changed, reloading.
+2024-05-21 11:00:33,700 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:00:39,751 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\product\urls.py changed, reloading.
+2024-05-21 11:00:40,613 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:00:47,902 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\product\urls.py changed, reloading.
+2024-05-21 11:00:48,863 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:00:52,709 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\product\urls.py changed, reloading.
+2024-05-21 11:00:53,632 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:01:11,873 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\product\urls.py changed, reloading.
+2024-05-21 11:01:12,699 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:01:15,545 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\product\urls.py changed, reloading.
+2024-05-21 11:01:16,358 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:01:25,735 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\product\urls.py changed, reloading.
+2024-05-21 11:01:26,535 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:01:31,497 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\product\urls.py changed, reloading.
+2024-05-21 11:01:32,423 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:01:41,824 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\product\urls.py changed, reloading.
+2024-05-21 11:01:42,648 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:01:48,699 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\product\urls.py changed, reloading.
+2024-05-21 11:01:49,525 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:02:02,273 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\product\urls.py changed, reloading.
+2024-05-21 11:02:03,184 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:02:07,075 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\product\urls.py changed, reloading.
+2024-05-21 11:02:07,892 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:02:20,470 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\product\urls.py changed, reloading.
+2024-05-21 11:02:21,405 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:02:26,557 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\product\urls.py changed, reloading.
+2024-05-21 11:02:27,388 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:02:30,567 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\product\urls.py changed, reloading.
+2024-05-21 11:02:31,372 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:02:37,700 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\product\urls.py changed, reloading.
+2024-05-21 11:02:38,579 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:02:48,373 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\product\urls.py changed, reloading.
+2024-05-21 11:02:49,235 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:02:51,430 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\product\urls.py changed, reloading.
+2024-05-21 11:02:52,262 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:03:00,930 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\product\urls.py changed, reloading.
+2024-05-21 11:03:01,730 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:03:17,678 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\product\urls.py changed, reloading.
+2024-05-21 11:03:18,590 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:03:36,770 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\product\urls.py changed, reloading.
+2024-05-21 11:03:37,687 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:03:40,750 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\product\urls.py changed, reloading.
+2024-05-21 11:03:41,600 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:03:44,343 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\product\urls.py changed, reloading.
+2024-05-21 11:03:45,253 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:03:51,334 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\product\urls.py changed, reloading.
+2024-05-21 11:03:52,257 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:03:54,232 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\product\urls.py changed, reloading.
+2024-05-21 11:03:55,061 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:03:58,123 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\product\urls.py changed, reloading.
+2024-05-21 11:03:59,017 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:04:00,973 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\product\urls.py changed, reloading.
+2024-05-21 11:04:01,845 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:04:03,866 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\product\urls.py changed, reloading.
+2024-05-21 11:04:04,788 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:04:07,761 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\product\urls.py changed, reloading.
+2024-05-21 11:04:08,666 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:04:10,748 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\product\urls.py changed, reloading.
+2024-05-21 11:04:11,590 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:04:13,238 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\product\urls.py changed, reloading.
+2024-05-21 11:04:14,055 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:04:16,807 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\product\urls.py changed, reloading.
+2024-05-21 11:04:17,626 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:04:24,798 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\product\urls.py changed, reloading.
+2024-05-21 11:04:25,620 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:04:30,594 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\product\urls.py changed, reloading.
+2024-05-21 11:04:31,400 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:05:20,104 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\product\urls.py changed, reloading.
+2024-05-21 11:05:21,084 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:05:45,894 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\product\urls.py changed, reloading.
+2024-05-21 11:05:46,845 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:05:49,573 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\product\urls.py changed, reloading.
+2024-05-21 11:05:50,486 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:07:55,846 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\product\urls.py changed, reloading.
+2024-05-21 11:07:56,943 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:08:02,050 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\product\urls.py changed, reloading.
+2024-05-21 11:08:02,922 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:15:29,843 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:19:28,366 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:22:10,248 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:22:16,519 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\product\urls.py changed, reloading.
+2024-05-21 11:22:17,988 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:25:05,645 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:25:19,115 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:25:52,354 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:26:17,733 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:26:58,548 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:30:46,694 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 11:30:56,885 django.request WARNING  Not Found: /
+2024-05-21 11:30:57,224 django.request WARNING  Not Found: /favicon.ico
+2024-05-21 11:31:16,110 django.request WARNING  Not Found: /products/color
+2024-05-21 11:31:23,429 django.request WARNING  Not Found: /products/colors
+2024-05-21 11:31:54,265 django.request WARNING  Not Found: /products/reviews
+2024-05-21 16:47:41,794 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 16:47:59,079 django.request WARNING  Not Found: /api/v1/users/
+2024-05-21 16:48:04,793 django.request WARNING  Not Found: /api/v1/users/me
+2024-05-21 16:48:31,879 django.request WARNING  Not Found: /
+2024-05-21 16:48:32,465 django.request WARNING  Not Found: /favicon.ico
+2024-05-21 16:48:46,705 django.request WARNING  Not Found: /auth/ka
+2024-05-21 16:48:58,562 django.request WARNING  Not Found: /auth/kad/
+2024-05-21 16:49:18,674 django.request WARNING  Not Found: /api/v1/auth/admin
+2024-05-21 16:50:28,665 django.request WARNING  Not Found: /api/v1/users/me/
+2024-05-21 16:50:50,687 django.request ERROR    Internal Server Error: /api/v1/auth/users/me/
+Traceback (most recent call last):
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\djoser\views.py", line 171, in me
+    return self.retrieve(request, *args, **kwargs)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\mixins.py", line 56, in retrieve
+    return Response(serializer.data)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\account\serializers.py", line 36, in to_representation
+    representation = super(UserSerializer, self).to_representation(instance)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\fields.py", line 1837, in to_representation
+    method = getattr(self.parent, self.method_name)
+AttributeError: 'UserSerializer' object has no attribute 'get_full_name'
+2024-05-21 16:54:49,647 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\account\serializers.py changed, reloading.
+2024-05-21 16:54:51,802 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 16:56:05,644 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\account\serializers.py changed, reloading.
+2024-05-21 16:56:07,151 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 16:56:14,558 django.request ERROR    Internal Server Error: /api/v1/auth/users/me/
+Traceback (most recent call last):
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\djoser\views.py", line 171, in me
+    return self.retrieve(request, *args, **kwargs)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\mixins.py", line 56, in retrieve
+    return Response(serializer.data)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\account\serializers.py", line 36, in to_representation
+    representation = super(UserSerializer, self).to_representation(instance)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 507, in to_representation
+    for field in fields:
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 368, in _readable_fields
+    for field in self.fields.values():
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 356, in fields
+    for key, value in self.get_fields().items():
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 1076, in get_fields
+    field_class, field_kwargs = self.build_field(
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 1222, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 1340, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `full_name` is not valid for model `User`.
+2024-05-21 16:56:26,393 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\account\serializers.py changed, reloading.
+2024-05-21 16:56:27,597 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 16:56:36,638 django.request ERROR    Internal Server Error: /api/v1/auth/users/me/
+Traceback (most recent call last):
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\djoser\views.py", line 171, in me
+    return self.retrieve(request, *args, **kwargs)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\mixins.py", line 56, in retrieve
+    return Response(serializer.data)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\account\serializers.py", line 36, in to_representation
+    representation = super(UserSerializer, self).to_representation(instance)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\fields.py", line 1837, in to_representation
+    method = getattr(self.parent, self.method_name)
+AttributeError: 'UserSerializer' object has no attribute 'get_role'
+2024-05-21 16:56:51,506 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\account\serializers.py changed, reloading.
+2024-05-21 16:56:52,615 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 16:56:55,505 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\account\serializers.py changed, reloading.
+2024-05-21 16:56:56,491 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 17:00:13,223 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\account\serializers.py changed, reloading.
+2024-05-21 17:00:15,723 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 17:01:10,976 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\account\serializers.py changed, reloading.
+2024-05-21 17:01:11,976 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 17:01:29,519 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\account\serializers.py changed, reloading.
+2024-05-21 17:01:31,101 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 17:02:24,226 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 17:02:32,349 django.request ERROR    Internal Server Error: /api/v1/auth/users/me/
+Traceback (most recent call last):
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\djoser\views.py", line 171, in me
+    return self.retrieve(request, *args, **kwargs)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\mixins.py", line 56, in retrieve
+    return Response(serializer.data)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\account\serializers.py", line 36, in to_representation
+    representation = super(UserSerializer, self).to_representation(instance)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 507, in to_representation
+    for field in fields:
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 368, in _readable_fields
+    for field in self.fields.values():
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 356, in fields
+    for key, value in self.get_fields().items():
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 1052, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 1148, in get_field_names
+    assert field_name in fields, (
+AssertionError: The field 'full_name' was declared on serializer UserSerializer, but has not been included in the 'fields' option.
+2024-05-21 17:02:44,667 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\account\serializers.py changed, reloading.
+2024-05-21 17:02:46,270 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 17:02:47,577 django.request ERROR    Internal Server Error: /api/v1/auth/users/me/
+Traceback (most recent call last):
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\fields.py", line 446, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\fields.py", line 96, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'User' object has no attribute 'user'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\djoser\views.py", line 171, in me
+    return self.retrieve(request, *args, **kwargs)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\mixins.py", line 56, in retrieve
+    return Response(serializer.data)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 555, in data
+    ret = super().data
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\account\serializers.py", line 36, in to_representation
+    representation = super(UserSerializer, self).to_representation(instance)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 509, in to_representation
+    attribute = field.get_attribute(instance)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\fields.py", line 479, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `role` on serializer `UserSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `User` instance.
+Original exception text was: 'User' object has no attribute 'user'.
+2024-05-21 17:06:28,146 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\account\serializers.py changed, reloading.
+2024-05-21 17:06:29,394 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 17:06:39,200 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\account\serializers.py changed, reloading.
+2024-05-21 17:06:40,173 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 17:06:42,512 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\account\serializers.py changed, reloading.
+2024-05-21 17:06:43,454 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 17:06:46,999 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\account\serializers.py changed, reloading.
+2024-05-21 17:06:48,011 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 17:06:50,331 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\account\serializers.py changed, reloading.
+2024-05-21 17:06:51,335 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 17:06:57,723 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\account\serializers.py changed, reloading.
+2024-05-21 17:06:58,712 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 17:07:08,423 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\account\serializers.py changed, reloading.
+2024-05-21 17:07:09,391 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 17:08:16,746 django.request WARNING  Not Found: /api/v1/profile/customerprofile/me/
+2024-05-21 17:56:33,391 django.request WARNING  Unauthorized: /api/v1/auth/users/
+2024-05-21 17:56:51,489 django.request ERROR    Internal Server Error: /api/v1/auth/users/
+Traceback (most recent call last):
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 768, in data
+    ret = super().data
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 686, in to_representation
+    return [
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\account\serializers.py", line 36, in to_representation
+    representation = super(UserSerializer, self).to_representation(instance)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 507, in to_representation
+    for field in fields:
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 368, in _readable_fields
+    for field in self.fields.values():
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 356, in fields
+    for key, value in self.get_fields().items():
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 1052, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python310\lib\site-packages\rest_framework\serializers.py", line 1148, in get_field_names
+    assert field_name in fields, (
+AssertionError: The field 'phone_number' was declared on serializer UserSerializer, but has not been included in the 'fields' option.
+2024-05-21 18:12:24,230 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\account\serializers.py changed, reloading.
+2024-05-21 18:12:27,093 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 18:12:33,127 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\account\serializers.py changed, reloading.
+2024-05-21 18:12:34,468 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 18:12:36,961 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\account\serializers.py changed, reloading.
+2024-05-21 18:12:37,947 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 18:12:41,487 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\account\serializers.py changed, reloading.
+2024-05-21 18:12:42,439 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 18:12:46,138 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\account\serializers.py changed, reloading.
+2024-05-21 18:12:48,052 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 18:12:51,956 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\account\serializers.py changed, reloading.
+2024-05-21 18:12:53,067 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 18:12:56,478 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\account\serializers.py changed, reloading.
+2024-05-21 18:12:57,621 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 18:13:04,030 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\account\serializers.py changed, reloading.
+2024-05-21 18:13:05,036 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 18:13:09,367 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\account\serializers.py changed, reloading.
+2024-05-21 18:13:10,378 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 18:13:14,754 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\account\serializers.py changed, reloading.
+2024-05-21 18:13:15,860 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 18:13:23,391 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\account\serializers.py changed, reloading.
+2024-05-21 18:13:24,464 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 18:13:26,624 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\apps\account\serializers.py changed, reloading.
+2024-05-21 18:13:27,673 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 18:25:14,704 django.request WARNING  Not Found: /api/v1/auth/profile/customer/me
+2024-05-21 18:54:22,448 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\ecommerce\urls.py changed, reloading.
+2024-05-21 18:54:25,786 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 18:54:28,269 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\TeamCodemen\click_cart\ecommerce\urls.py changed, reloading.
+2024-05-21 18:54:29,678 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 19:16:54,747 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-21 19:17:13,097 django.request WARNING  Not Found: /
