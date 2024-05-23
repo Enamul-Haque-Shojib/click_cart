@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+ecommerce/.env
+__pycache__
+=======
 # Created by https://www.toptal.com/developers/gitignore/api/django,windows,visualstudiocode,python
 # Edit at https://www.toptal.com/developers/gitignore?templates=django,windows,visualstudiocode,python
 
@@ -311,3 +315,4 @@ $RECYCLE.BIN/
 # self
 
 logs/
+>>>>>>> 07d58725b9dc825f034bfda7f42d569a177bb309
