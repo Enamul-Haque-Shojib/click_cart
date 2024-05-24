@@ -422,3 +422,8 @@ AssertionError: The field 'phone_number' was declared on serializer UserSerializ
 2024-05-21 18:54:29,678 django.utils.autoreload INFO     Watching for file changes with StatReloader
 2024-05-21 19:16:54,747 django.utils.autoreload INFO     Watching for file changes with StatReloader
 2024-05-21 19:17:13,097 django.request WARNING  Not Found: /
+2024-05-24 21:21:35,066 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-24 21:21:38,053 django.request WARNING  Not Found: /
+2024-05-24 21:21:43,840 django.request WARNING  Not Found: /admin
+2024-05-24 21:21:49,901 django.request WARNING  Not Found: /admin
+2024-05-24 21:23:30,040 django.request WARNING  Not Found: /favicon.ico
