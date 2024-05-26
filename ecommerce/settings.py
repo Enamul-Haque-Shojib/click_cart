@@ -62,9 +62,10 @@ THIRD_PARTY_APPS = [
 
 LOCAL_APPS = [
      'apps.account',
+     'apps.product',
+     'apps.transaction',
      'apps.cart',
      'apps.wishlist',
-     'apps.product',
      'apps.order'
 ]
 
