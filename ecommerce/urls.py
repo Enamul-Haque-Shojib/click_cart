@@ -25,6 +25,7 @@ urlpatterns = [
     path("api/v1/auth/", include("djoser.urls.jwt")),
     path("api/v1/profile/", include("apps.account.urls")),
     path("api/v1/products/", include("apps.product.urls")),
+    path("api/v1/", include("apps.transaction.urls")),
 ]
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
