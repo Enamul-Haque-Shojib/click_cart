@@ -6,7 +6,7 @@ import uuid
 # Create your models here.
 
 class Cart(models.Model):
-    cart_id = id = models.UUIDField(default=uuid.uuid4, primary_key=True)
+    cart_id = models.UUIDField(default=uuid.uuid4, primary_key=True)
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
     created_at = models.DateTimeField(timezone.now)
     updated_at = models.DateTimeField(auto_now=True)

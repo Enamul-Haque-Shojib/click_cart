@@ -23,13 +23,12 @@ urlpatterns = [
     path('api/v1/admin/', admin.site.urls),
     path("api/v1/auth/", include("djoser.urls")),
     path("api/v1/auth/", include("djoser.urls.jwt")),
-<<<<<<< HEAD
     path("api/v1/cart/", include("apps.cart.urls")),
     path("api/v1/wishlist/", include("apps.wishlist.urls")),
-=======
     path("api/v1/profile/", include("apps.account.urls")),
     path("api/v1/products/", include("apps.product.urls")),
->>>>>>> 07d58725b9dc825f034bfda7f42d569a177bb309
+    path("api/v1/", include("apps.transaction.urls")),
+    path("api/v1/orders/", include("apps.order.urls")),
 ]
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
