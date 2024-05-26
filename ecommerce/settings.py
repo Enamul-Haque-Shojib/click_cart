@@ -65,6 +65,10 @@ LOCAL_APPS = [
      'apps.product',
      'apps.transaction',
      
+     'apps.cart',
+     'apps.wishlist',
+     'apps.product',
+     'apps.order'
 ]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
@@ -171,6 +175,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 AUTH_USER_MODEL = 'account.User'
 
 EMAIL_BACKEND = env('EMAIL_BACKEND')
+EMAIL_HOST = env('EMAIL_HOST')
 EMAIL_HOST = env("EMAIL_HOST")
 EMAIL_USE_TLS = True
 EMAIL_PORT = env("EMAIL_PORT")

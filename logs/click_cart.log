@@ -650,3 +650,10 @@ AssertionError: The field 'phone_number' was declared on serializer UserSerializ
 2024-05-23 17:32:30,372 django.utils.autoreload INFO     Watching for file changes with StatReloader
 2024-05-23 17:33:05,341 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/transaction/views.py changed, reloading.
 2024-05-23 17:33:05,810 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-24 21:21:35,066 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-24 21:21:38,053 django.request WARNING  Not Found: /
+2024-05-24 21:21:43,840 django.request WARNING  Not Found: /admin
+2024-05-24 21:21:49,901 django.request WARNING  Not Found: /admin
+2024-05-24 21:23:30,040 django.request WARNING  Not Found: /favicon.ico
+2024-05-24 21:38:48,960 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-05-24 21:38:52,431 django.request WARNING  Not Found: /
