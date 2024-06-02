@@ -4,8 +4,6 @@ from apps.product.serializers import ProductSerializers
 
 
 class WishlistSerializer(serializers.ModelSerializer):
-    products = ProductSerializers(many=True, read_only=True)
-
     class Meta:
         model = Wishlist
-        fields = '__all__'
+        fields = ['wishlist_id','user','product']

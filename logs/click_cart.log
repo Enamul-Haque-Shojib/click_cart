@@ -1404,3 +1404,295 @@ AttributeError: 'RelatedManager' object has no attribute 'pk'
 2024-06-03 01:46:21,400 django.utils.autoreload INFO     Watching for file changes with StatReloader
 2024-06-03 01:47:24,840 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/models.py changed, reloading.
 2024-06-03 01:47:25,168 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 02:08:36,063 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 02:09:05,966 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/views.py changed, reloading.
+2024-06-03 02:09:06,293 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 02:09:39,186 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/views.py changed, reloading.
+2024-06-03 02:09:39,529 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 02:09:55,068 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/urls.py changed, reloading.
+2024-06-03 02:09:55,429 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 02:10:14,061 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/urls.py changed, reloading.
+2024-06-03 02:10:14,378 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 02:10:23,793 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/urls.py changed, reloading.
+2024-06-03 02:10:24,119 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 02:10:29,464 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/urls.py changed, reloading.
+2024-06-03 02:10:29,816 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 02:10:43,295 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/urls.py changed, reloading.
+2024-06-03 02:10:43,622 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 02:10:53,017 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/urls.py changed, reloading.
+2024-06-03 02:10:53,348 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 02:10:57,696 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/urls.py changed, reloading.
+2024-06-03 02:10:58,090 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 02:11:01,386 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/urls.py changed, reloading.
+2024-06-03 02:11:01,762 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 02:11:05,010 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/urls.py changed, reloading.
+2024-06-03 02:11:05,485 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 02:11:08,793 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/urls.py changed, reloading.
+2024-06-03 02:11:09,133 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 02:11:10,362 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/urls.py changed, reloading.
+2024-06-03 02:11:10,692 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 02:11:19,072 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/urls.py changed, reloading.
+2024-06-03 02:11:19,431 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 02:11:21,727 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/urls.py changed, reloading.
+2024-06-03 02:11:22,118 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 02:11:39,789 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/urls.py changed, reloading.
+2024-06-03 02:11:40,116 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 02:12:02,899 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/ecommerce/urls.py changed, reloading.
+2024-06-03 02:12:03,243 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 02:12:33,243 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/models.py changed, reloading.
+2024-06-03 02:12:33,599 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 02:12:54,285 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/models.py changed, reloading.
+2024-06-03 02:12:54,617 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 02:13:06,187 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/serializers.py changed, reloading.
+2024-06-03 02:13:06,536 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 02:13:07,875 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/serializers.py changed, reloading.
+2024-06-03 02:13:08,202 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 02:13:13,984 django.request ERROR    Internal Server Error: /api/v1/wishlists/
+Traceback (most recent call last):
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such column: wishlist_wishlist.product_id
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 795, in data
+    ret = super().data
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 713, in to_representation
+    return [
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/models/query.py", line 398, in __iter__
+    self._fetch_all()
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/models/query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/models/query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such column: wishlist_wishlist.product_id
+2024-06-03 02:13:57,343 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 02:14:22,312 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/serializers.py changed, reloading.
+2024-06-03 02:14:22,708 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 02:14:29,187 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/serializers.py changed, reloading.
+2024-06-03 02:14:29,559 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 02:14:36,897 django.request ERROR    Internal Server Error: /api/v1/wishlists/
+Traceback (most recent call last):
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: wishlist_wishlist.created_at
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 989, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/models/query.py", line 658, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/models/sql/compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: wishlist_wishlist.created_at
+2024-06-03 02:15:13,871 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/models.py changed, reloading.
+2024-06-03 02:15:14,189 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 02:15:19,701 django.request ERROR    Internal Server Error: /api/v1/wishlists/
+Traceback (most recent call last):
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: wishlist_wishlist.created_at
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 989, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/models/query.py", line 658, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/models/sql/compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: wishlist_wishlist.created_at
+2024-06-03 02:15:32,928 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/models.py changed, reloading.
+2024-06-03 02:15:33,262 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 02:15:36,427 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/models.py changed, reloading.
+2024-06-03 02:15:36,783 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 02:15:42,974 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/models.py changed, reloading.
+2024-06-03 02:15:43,276 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 02:16:04,085 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/serializers.py changed, reloading.
+2024-06-03 02:16:04,458 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 02:16:09,748 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/serializers.py changed, reloading.
+2024-06-03 02:16:10,106 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 02:17:07,587 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/models.py changed, reloading.
+2024-06-03 02:17:07,906 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 02:17:17,105 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/models.py changed, reloading.
+2024-06-03 02:17:17,414 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 02:17:20,848 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/models.py changed, reloading.
+2024-06-03 02:17:21,198 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 02:17:23,601 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/models.py changed, reloading.
+2024-06-03 02:17:23,955 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 02:17:27,343 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/models.py changed, reloading.
+2024-06-03 02:17:27,667 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 02:17:34,074 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/models.py changed, reloading.
+2024-06-03 02:17:34,428 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 02:17:38,585 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/models.py changed, reloading.
+2024-06-03 02:17:38,918 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 02:17:41,087 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/models.py changed, reloading.
+2024-06-03 02:17:41,359 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 02:17:44,529 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/models.py changed, reloading.
+2024-06-03 02:17:44,935 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 02:17:49,102 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/models.py changed, reloading.
+2024-06-03 02:17:49,487 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 02:17:52,644 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/models.py changed, reloading.
+2024-06-03 02:17:52,939 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 02:17:55,284 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/models.py changed, reloading.
+2024-06-03 02:17:55,601 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 02:18:03,040 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/models.py changed, reloading.
+2024-06-03 02:18:03,409 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 02:18:05,778 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/models.py changed, reloading.
+2024-06-03 02:18:06,177 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 02:18:08,335 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/models.py changed, reloading.
+2024-06-03 02:18:08,629 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 02:20:33,720 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/models.py changed, reloading.
+2024-06-03 02:20:34,056 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 02:20:42,503 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/models.py changed, reloading.
+2024-06-03 02:20:42,871 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 02:20:46,297 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/models.py changed, reloading.
+2024-06-03 02:20:46,658 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 02:21:01,276 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 02:21:10,163 django.request WARNING  Bad Request: /api/v1/carts/
