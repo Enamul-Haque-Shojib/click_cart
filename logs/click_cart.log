@@ -670,3 +670,737 @@ AssertionError: The field 'phone_number' was declared on serializer UserSerializ
 2024-06-02 18:25:35,680 django.request WARNING  Bad Request: /api/v1/products/
 2024-06-02 18:29:39,804 django.request WARNING  Bad Request: /api/v1/products/
 2024-06-02 18:52:19,481 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:03:17,553 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:03:20,788 django.request WARNING  Not Found: /
+2024-06-03 00:03:21,507 django.request WARNING  Not Found: /favicon.ico
+2024-06-03 00:03:36,978 django.request WARNING  Not Found: /api/v1/carts/2/
+2024-06-03 00:03:44,887 django.request WARNING  Not Found: /api/v1/carts/user_id=2/
+2024-06-03 00:03:53,465 django.request WARNING  Not Found: /api/v1/carts/user_id=2/
+2024-06-03 00:04:44,153 django.request WARNING  Not Found: /api/v1/carts/user_id=3/
+2024-06-03 00:05:16,413 django.request WARNING  Not Found: /api/v1/carts/user_id=2/
+2024-06-03 00:19:22,081 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/models.py changed, reloading.
+2024-06-03 00:19:22,613 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:20:25,244 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/serializers.py changed, reloading.
+2024-06-03 00:20:25,595 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:20:27,829 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/serializers.py changed, reloading.
+2024-06-03 00:20:28,207 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:20:42,824 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/serializers.py changed, reloading.
+2024-06-03 00:20:43,186 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:20:44,535 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/serializers.py changed, reloading.
+2024-06-03 00:20:44,916 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:20:53,391 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/serializers.py changed, reloading.
+2024-06-03 00:20:53,759 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:20:54,993 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/serializers.py changed, reloading.
+2024-06-03 00:20:55,320 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:20:57,668 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/serializers.py changed, reloading.
+2024-06-03 00:20:58,016 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:21:50,457 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/serializers.py changed, reloading.
+2024-06-03 00:21:50,797 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:22:03,217 django.request ERROR    Internal Server Error: /api/v1/carts/
+Traceback (most recent call last):
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 795, in data
+    ret = super().data
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 713, in to_representation
+    return [
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 714, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 523, in to_representation
+    for field in fields:
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 384, in _readable_fields
+    for field in self.fields.values():
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 1079, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 1175, in get_field_names
+    assert field_name in fields, (
+AssertionError: The field 'cart_products' was declared on serializer CartSerializer, but has not been included in the 'fields' option.
+2024-06-03 00:22:19,862 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/serializers.py changed, reloading.
+2024-06-03 00:22:20,219 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:22:23,557 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/serializers.py changed, reloading.
+2024-06-03 00:22:23,933 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:22:27,233 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/serializers.py changed, reloading.
+2024-06-03 00:22:27,591 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:22:33,940 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/serializers.py changed, reloading.
+2024-06-03 00:22:34,416 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:22:42,873 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/serializers.py changed, reloading.
+2024-06-03 00:22:43,192 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:22:48,516 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/serializers.py changed, reloading.
+2024-06-03 00:22:48,866 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:23:07,457 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/serializers.py changed, reloading.
+2024-06-03 00:23:07,894 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:23:09,130 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/serializers.py changed, reloading.
+2024-06-03 00:23:09,445 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:23:12,245 django.request ERROR    Internal Server Error: /api/v1/carts/
+Traceback (most recent call last):
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 795, in data
+    ret = super().data
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 713, in to_representation
+    return [
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 714, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 523, in to_representation
+    for field in fields:
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 384, in _readable_fields
+    for field in self.fields.values():
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 1103, in get_fields
+    field_class, field_kwargs = self.build_field(
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 1249, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 1367, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `product` is not valid for model `Cart` in `apps.cart.serializers.CartSerializer`.
+2024-06-03 00:23:25,129 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/serializers.py changed, reloading.
+2024-06-03 00:23:25,517 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:23:26,744 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/serializers.py changed, reloading.
+2024-06-03 00:23:27,122 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:23:29,409 django.request ERROR    Internal Server Error: /api/v1/carts/
+Traceback (most recent call last):
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 795, in data
+    ret = super().data
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 713, in to_representation
+    return [
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 714, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 523, in to_representation
+    for field in fields:
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 384, in _readable_fields
+    for field in self.fields.values():
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 1103, in get_fields
+    field_class, field_kwargs = self.build_field(
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 1249, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 1367, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `quantity` is not valid for model `Cart` in `apps.cart.serializers.CartSerializer`.
+2024-06-03 00:23:40,783 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/serializers.py changed, reloading.
+2024-06-03 00:23:41,119 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:23:56,833 django.request ERROR    Internal Server Error: /api/v1/carts/
+Traceback (most recent call last):
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.IntegrityError: NOT NULL constraint failed: cart_cart.quantity
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 208, in save
+    self.instance = self.create(validated_data)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 989, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/models/query.py", line 658, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/models/sql/compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.IntegrityError: NOT NULL constraint failed: cart_cart.quantity
+2024-06-03 00:24:29,306 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:24:44,272 django.request WARNING  Bad Request: /api/v1/carts/
+2024-06-03 00:24:50,864 django.request WARNING  Bad Request: /api/v1/carts/
+2024-06-03 00:24:54,573 django.request WARNING  Bad Request: /api/v1/carts/
+2024-06-03 00:25:14,463 django.request WARNING  Not Found: /api/v1/carts/1/
+2024-06-03 00:26:41,317 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/serializers.py changed, reloading.
+2024-06-03 00:26:41,700 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:26:47,134 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/serializers.py changed, reloading.
+2024-06-03 00:26:47,470 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:28:28,874 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/urls.py changed, reloading.
+2024-06-03 00:28:29,297 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:29:06,164 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:29:31,076 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/views.py changed, reloading.
+2024-06-03 00:29:31,423 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:29:53,160 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/views.py changed, reloading.
+2024-06-03 00:29:53,660 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:30:09,502 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:30:21,789 django.request ERROR    Internal Server Error: /api/v1/cart/
+Traceback (most recent call last):
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/mixins.py", line 20, in create
+    headers = self.get_success_headers(serializer.data)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 571, in data
+    ret = super().data
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 538, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/relations.py", line 564, in to_representation
+    return [
+TypeError: 'UUID' object is not iterable
+2024-06-03 00:30:38,873 django.request ERROR    Internal Server Error: /api/v1/cart/
+Traceback (most recent call last):
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/mixins.py", line 20, in create
+    headers = self.get_success_headers(serializer.data)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 571, in data
+    ret = super().data
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 538, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/relations.py", line 564, in to_representation
+    return [
+TypeError: 'UUID' object is not iterable
+2024-06-03 00:30:58,953 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/views.py changed, reloading.
+2024-06-03 00:30:59,380 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:31:03,599 django.request ERROR    Internal Server Error: /api/v1/cart/
+Traceback (most recent call last):
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 492, in dispatch
+    request = self.initialize_request(request, *args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/viewsets.py", line 145, in initialize_request
+    request = super().initialize_request(request, *args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 393, in initialize_request
+    parsers=self.get_parsers(),
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 266, in get_parsers
+    return [parser() for parser in self.parser_classes]
+TypeError: 'type' object is not iterable
+2024-06-03 00:31:04,410 django.request ERROR    Internal Server Error: /api/v1/cart/
+Traceback (most recent call last):
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 492, in dispatch
+    request = self.initialize_request(request, *args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/viewsets.py", line 145, in initialize_request
+    request = super().initialize_request(request, *args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 393, in initialize_request
+    parsers=self.get_parsers(),
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 266, in get_parsers
+    return [parser() for parser in self.parser_classes]
+TypeError: 'type' object is not iterable
+2024-06-03 00:31:04,810 django.request ERROR    Internal Server Error: /api/v1/cart/
+Traceback (most recent call last):
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 492, in dispatch
+    request = self.initialize_request(request, *args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/viewsets.py", line 145, in initialize_request
+    request = super().initialize_request(request, *args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 393, in initialize_request
+    parsers=self.get_parsers(),
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 266, in get_parsers
+    return [parser() for parser in self.parser_classes]
+TypeError: 'type' object is not iterable
+2024-06-03 00:31:05,148 django.request ERROR    Internal Server Error: /api/v1/cart/
+Traceback (most recent call last):
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 492, in dispatch
+    request = self.initialize_request(request, *args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/viewsets.py", line 145, in initialize_request
+    request = super().initialize_request(request, *args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 393, in initialize_request
+    parsers=self.get_parsers(),
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 266, in get_parsers
+    return [parser() for parser in self.parser_classes]
+TypeError: 'type' object is not iterable
+2024-06-03 00:31:13,057 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/views.py changed, reloading.
+2024-06-03 00:31:13,382 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:31:18,776 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/views.py changed, reloading.
+2024-06-03 00:31:19,108 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:31:22,323 django.request ERROR    Internal Server Error: /api/v1/cart/
+Traceback (most recent call last):
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 795, in data
+    ret = super().data
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 713, in to_representation
+    return [
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 714, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 538, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/relations.py", line 564, in to_representation
+    return [
+TypeError: 'UUID' object is not iterable
+2024-06-03 00:32:35,359 django.request ERROR    Internal Server Error: /api/v1/cart/
+Traceback (most recent call last):
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 795, in data
+    ret = super().data
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 713, in to_representation
+    return [
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 714, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 538, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/relations.py", line 564, in to_representation
+    return [
+TypeError: 'UUID' object is not iterable
+2024-06-03 00:36:07,957 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/serializers.py changed, reloading.
+2024-06-03 00:36:08,470 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:36:12,817 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/serializers.py changed, reloading.
+2024-06-03 00:36:13,164 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:36:15,433 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/serializers.py changed, reloading.
+2024-06-03 00:36:15,763 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:41:12,078 django.request WARNING  Not Found: /api/v1/carts/d04994b2-0f3a-4791-999d-99b777be7f0e/
+2024-06-03 00:41:47,926 django.request WARNING  Not Found: /api/v1/cart/1/
+2024-06-03 00:42:23,661 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/models.py changed, reloading.
+2024-06-03 00:42:24,014 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:42:40,732 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:43:49,559 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/serializers.py changed, reloading.
+2024-06-03 00:43:49,936 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:43:51,151 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/serializers.py changed, reloading.
+2024-06-03 00:43:51,570 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:43:57,008 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/serializers.py changed, reloading.
+2024-06-03 00:43:57,362 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:44:02,975 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:44:38,646 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:44:49,136 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/serializers.py changed, reloading.
+2024-06-03 00:44:49,554 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:44:51,926 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/serializers.py changed, reloading.
+2024-06-03 00:44:52,275 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:44:55,515 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/serializers.py changed, reloading.
+2024-06-03 00:44:55,902 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:44:58,160 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/serializers.py changed, reloading.
+2024-06-03 00:44:58,513 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:45:03,902 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/serializers.py changed, reloading.
+2024-06-03 00:45:04,254 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:45:07,520 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/serializers.py changed, reloading.
+2024-06-03 00:45:07,883 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:45:14,691 django.request ERROR    Internal Server Error: /api/v1/carts/
+Traceback (most recent call last):
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/fields.py", line 439, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/fields.py", line 106, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'Cart' object has no attribute 'cart_items'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 795, in data
+    ret = super().data
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 713, in to_representation
+    return [
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 714, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 525, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/relations.py", line 189, in get_attribute
+    return super().get_attribute(instance)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/fields.py", line 472, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `cart_items` on serializer `CartSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `Cart` instance.
+Original exception text was: 'Cart' object has no attribute 'cart_items'.
+2024-06-03 00:45:54,179 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/serializers.py changed, reloading.
+2024-06-03 00:45:54,493 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:45:58,122 django.request ERROR    Internal Server Error: /api/v1/carts/
+Traceback (most recent call last):
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 795, in data
+    ret = super().data
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 713, in to_representation
+    return [
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 714, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 523, in to_representation
+    for field in fields:
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 384, in _readable_fields
+    for field in self.fields.values():
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 372, in fields
+    for key, value in self.get_fields().items():
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 1079, in get_fields
+    field_names = self.get_field_names(declared_fields, info)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 1175, in get_field_names
+    assert field_name in fields, (
+AssertionError: The field 'cart_item_id' was declared on serializer CartSerializer, but has not been included in the 'fields' option.
+2024-06-03 00:46:12,286 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/serializers.py changed, reloading.
+2024-06-03 00:46:12,652 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:46:15,288 django.request ERROR    Internal Server Error: /api/v1/carts/
+Traceback (most recent call last):
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/fields.py", line 439, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/fields.py", line 106, in get_attribute
+    instance = getattr(instance, attr)
+AttributeError: 'Cart' object has no attribute 'cart_item_id'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 795, in data
+    ret = super().data
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 713, in to_representation
+    return [
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 714, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 525, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/relations.py", line 189, in get_attribute
+    return super().get_attribute(instance)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/fields.py", line 472, in get_attribute
+    raise type(exc)(msg)
+AttributeError: Got AttributeError when attempting to get a value for field `cart_item_id` on serializer `CartSerializer`.
+The serializer field might be named incorrectly and not match any attribute or key on the `Cart` instance.
+Original exception text was: 'Cart' object has no attribute 'cart_item_id'.
+2024-06-03 00:46:31,450 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/serializers.py changed, reloading.
+2024-06-03 00:46:31,792 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:46:35,153 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/serializers.py changed, reloading.
+2024-06-03 00:46:35,496 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:46:37,869 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/serializers.py changed, reloading.
+2024-06-03 00:46:38,220 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:46:55,941 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/models.py changed, reloading.
+2024-06-03 00:46:56,310 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:47:24,861 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:48:12,779 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:48:46,118 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:48:48,050 django.request WARNING  Not Found: /
+2024-06-03 00:49:01,515 django.request ERROR    Internal Server Error: /api/v1/carts/
+Traceback (most recent call last):
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 795, in data
+    ret = super().data
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 249, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 713, in to_representation
+    return [
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 714, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/serializers.py", line 538, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/env/lib64/python3.9/site-packages/rest_framework/relations.py", line 268, in to_representation
+    return value.pk
+AttributeError: 'RelatedManager' object has no attribute 'pk'
+2024-06-03 00:49:53,021 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/serializers.py changed, reloading.
+2024-06-03 00:49:53,364 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:50:32,403 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/models.py changed, reloading.
+2024-06-03 00:50:32,751 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:54:11,868 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/serializers.py changed, reloading.
+2024-06-03 00:54:12,224 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:54:13,498 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/serializers.py changed, reloading.
+2024-06-03 00:54:13,821 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:54:15,076 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/serializers.py changed, reloading.
+2024-06-03 00:54:15,437 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:54:37,220 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/serializers.py changed, reloading.
+2024-06-03 00:54:37,588 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:54:44,983 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/serializers.py changed, reloading.
+2024-06-03 00:54:45,306 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:55:30,640 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/serializers.py changed, reloading.
+2024-06-03 00:55:30,983 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:55:36,382 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/serializers.py changed, reloading.
+2024-06-03 00:55:36,861 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:55:40,308 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/serializers.py changed, reloading.
+2024-06-03 00:55:40,670 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:55:57,498 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/models.py changed, reloading.
+2024-06-03 00:55:57,828 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:59:23,152 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/models.py changed, reloading.
+2024-06-03 00:59:23,608 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:59:27,782 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/models.py changed, reloading.
+2024-06-03 00:59:28,150 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 00:59:30,531 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/models.py changed, reloading.
+2024-06-03 00:59:58,567 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 01:00:03,373 django.request WARNING  Not Found: /
+2024-06-03 01:00:41,853 django.request WARNING  Bad Request: /api/v1/carts/
+2024-06-03 01:08:40,101 django.request WARNING  Bad Request: /api/v1/carts/
+2024-06-03 01:39:58,823 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/models.py changed, reloading.
+2024-06-03 01:39:59,225 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 01:40:01,575 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/models.py changed, reloading.
+2024-06-03 01:40:01,970 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 01:40:03,118 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/cart/models.py changed, reloading.
+2024-06-03 01:40:03,484 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 01:45:42,129 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/models.py changed, reloading.
+2024-06-03 01:45:42,476 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 01:45:45,844 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/models.py changed, reloading.
+2024-06-03 01:45:46,186 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 01:45:51,655 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/models.py changed, reloading.
+2024-06-03 01:45:51,973 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 01:45:59,405 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/models.py changed, reloading.
+2024-06-03 01:45:59,767 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 01:46:06,950 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/models.py changed, reloading.
+2024-06-03 01:46:07,260 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 01:46:11,438 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/models.py changed, reloading.
+2024-06-03 01:46:11,807 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 01:46:18,286 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/models.py changed, reloading.
+2024-06-03 01:46:18,665 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 01:46:21,070 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/models.py changed, reloading.
+2024-06-03 01:46:21,400 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-03 01:47:24,840 django.utils.autoreload INFO     /home/noyonahammadkhan/Desktop/PHITRON BATCH 03/TEAM PROJECT/Click_Kart/click_cart/apps/wishlist/models.py changed, reloading.
+2024-06-03 01:47:25,168 django.utils.autoreload INFO     Watching for file changes with StatReloader
