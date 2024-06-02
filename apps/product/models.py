@@ -1,6 +1,6 @@
 import uuid
 from django.db import models
-from django.utils import timezone
+from django.utils import timezone, text
 from apps.account.models import CustomerProfile, VendorProfile
 
 
@@ -11,6 +11,10 @@ class ParentCategory(models.Model):
     created_at = models.DateTimeField(timezone.now)
     updated_at = models.DateTimeField(auto_now=True)
     
+    def save(self, *args, **kwargs):
+        self.slug = text.slugify(self.parent_category)
+        super().save(*args, **kwargs)
+
     def __str__(self):
         return self.parent_category
     
@@ -23,13 +27,17 @@ class SubCategory(models.Model):
     created_at = models.DateTimeField(timezone.now)
     updated_at = models.DateTimeField(auto_now=True)
 
+    def save(self, *args, **kwargs):
+        self.slug = text.slugify(self.sub_category)
+        super().save(*args, **kwargs)
+
     def __str__(self):
         return self.sub_category
 
 
 class Size(models.Model):
     product_size = models.CharField(max_length=30)
-
+    
     def __str__(self):
         return self.product_size
 
@@ -50,7 +58,7 @@ class Product(models.Model):
     category = models.ForeignKey(
         SubCategory, on_delete=models.CASCADE, null=True, blank=True
     )
-    product_image = models.ImageField(upload_to='product/images/')
+    image = models.ImageField(upload_to='product/media/', blank=True, null=True, default='')
     size = models.ManyToManyField(
         Size, default=None, blank=True
     )
@@ -69,6 +77,10 @@ class Product(models.Model):
     created_at = models.DateTimeField(timezone.now)
     updated_at = models.DateTimeField(auto_now=True)
 
+    def save(self, *args, **kwargs):
+        self.slug = text.slugify(self.title)
+        super().save(*args, **kwargs)
+
     def __str__(self):
         return self.title
 
@@ -78,11 +90,11 @@ class ProductImage(models.Model):
         Product, on_delete=models.CASCADE, related_name="images"
     )
     image = models.ImageField(
-        upload_to="product/media/uploads/", default="", null=True, blank=True
+        upload_to="product/media/", default="", null=True, blank=True
     )
 
     def __str__(self):
-        return "%s" % (self.product.name)
+        return "%s" % (self.product.title)
 
 
 class ProductQuery(models.Model):

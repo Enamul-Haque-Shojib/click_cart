@@ -657,3 +657,16 @@ AssertionError: The field 'phone_number' was declared on serializer UserSerializ
 2024-05-24 21:23:30,040 django.request WARNING  Not Found: /favicon.ico
 2024-05-24 21:38:48,960 django.utils.autoreload INFO     Watching for file changes with StatReloader
 2024-05-24 21:38:52,431 django.request WARNING  Not Found: /
+2024-06-02 17:48:46,131 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-02 17:54:38,926 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-02 17:54:56,070 django.request WARNING  Not Found: /
+2024-06-02 17:54:56,286 django.request WARNING  Not Found: /favicon.ico
+2024-06-02 17:58:52,181 django.request WARNING  Not Found: /api/v1/products/parentcategory/1aff6924-14f5-45c9-89d2-3ea3f3f88ac2/
+2024-06-02 17:59:27,826 django.utils.autoreload INFO     D:\Phitron_Batch_3\Django\click_cart\apps\product\urls.py changed, reloading.
+2024-06-02 17:59:30,019 django.utils.autoreload INFO     Watching for file changes with StatReloader
+2024-06-02 18:01:45,641 django.request WARNING  Bad Request: /api/v1/products/subcategory/
+2024-06-02 18:24:28,580 django.request WARNING  Bad Request: /api/v1/products/
+2024-06-02 18:25:22,669 django.request WARNING  Bad Request: /api/v1/products/
+2024-06-02 18:25:35,680 django.request WARNING  Bad Request: /api/v1/products/
+2024-06-02 18:29:39,804 django.request WARNING  Bad Request: /api/v1/products/
+2024-06-02 18:52:19,481 django.utils.autoreload INFO     Watching for file changes with StatReloader
