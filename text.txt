@@ -24,6 +24,59 @@ const login = async (username, password) => {
   }
 };
 
+const refreshToken = async () => {
+  try {
+    const refreshToken = localStorage.getItem('refresh_token');
+    if (!refreshToken) {
+      throw new Error('No refresh token available');
+    }
+    
+    const response = await axios.post(`${API_URL}/jwt/refresh/`, {
+      refresh: refreshToken
+    });
+    
+    if (response.data.access) {
+      localStorage.setItem('access_token', response.data.access);
+      axios.defaults.headers.common['Authorization'] = `Bearer ${response.data.access}`;
+      return response.data.access;
+    }
+  } catch (error) {
+    console.error('Token refresh error:', error);
+    // If refresh fails, log the user out
+    logout();
+    throw error;
+  }
+};
+
+// Set up axios interceptor to handle token expiration
+axios.interceptors.response.use(
+  (response) => response,
+  async (error) => {
+    const originalRequest = error.config;
+    
+    // If the error is 401 Unauthorized and the request hasn't been retried yet
+    if (error.response?.status === 401 && !originalRequest._retry) {
+      originalRequest._retry = true;
+      
+      try {
+        // Try to refresh the token
+        await refreshToken();
+        
+        // Update the authorization header
+        originalRequest.headers['Authorization'] = `Bearer ${localStorage.getItem('access_token')}`;
+        
+        // Retry the original request
+        return axios(originalRequest);
+      } catch (refreshError) {
+        // If refresh token fails, redirect to login or handle as needed
+        return Promise.reject(refreshError);
+      }
+    }
+    
+    return Promise.reject(error);
+  }
+);
+
 const getUserInfo = async () => {
   try {
     const response = await axios.get(`${API_URL}/users/me/`);
@@ -40,4 +93,4 @@ const logout = () => {
   delete axios.defaults.headers.common['Authorization'];
 };
 
-export { login, getUserInfo, logout };
+export { login, getUserInfo, logout, refreshToken };
