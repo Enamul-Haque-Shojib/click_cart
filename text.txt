@@ -6,17 +6,20 @@ import axios from 'axios';
 
 const API_URL = 'http://your-backend-url/api'; // Replace with your backend URL
 
+// Configure axios to include credentials (cookies) with requests
+axios.defaults.withCredentials = true;
+
 const login = async (username, password) => {
   try {
     const response = await axios.post(`${API_URL}/jwt/create/`, {
       username,
       password
     });
-    if (response.data.access) {
-      localStorage.setItem('access_token', response.data.access);
-      localStorage.setItem('refresh_token', response.data.refresh);
-      axios.defaults.headers.common['Authorization'] = `Bearer ${response.data.access}`;
-    }
+    
+    // The backend should set HttpOnly cookies for tokens
+    // No need to manually store tokens as they will be handled by the server
+    // and automatically included in subsequent requests
+
     return response.data;
   } catch (error) {
     console.error('Login error:', error);
@@ -26,6 +29,7 @@ const login = async (username, password) => {
 
 const getUserInfo = async () => {
   try {
+    // Cookies are automatically sent with the request
     const response = await axios.get(`${API_URL}/users/me/`);
     return response.data;
   } catch (error) {
@@ -34,10 +38,30 @@ const getUserInfo = async () => {
   }
 };
 
-const logout = () => {
-  localStorage.removeItem('access_token');
-  localStorage.removeItem('refresh_token');
-  delete axios.defaults.headers.common['Authorization'];
+const logout = async () => {
+  try {
+    // Call logout endpoint to clear the HttpOnly cookies on the server side
+    await axios.post(`${API_URL}/logout/`);
+  } catch (error) {
+    console.error('Logout error:', error);
+  }
 };
+
+// Add CSRF token handling for added security
+const setupCSRFToken = async () => {
+  try {
+    // Get CSRF token from the server
+    const response = await axios.get(`${API_URL}/csrf-token/`);
+    if (response.data.csrfToken) {
+      // Set CSRF token for all future requests
+      axios.defaults.headers.common['X-CSRF-Token'] = response.data.csrfToken;
+    }
+  } catch (error) {
+    console.error('CSRF token fetch error:', error);
+  }
+};
+
+// Initialize CSRF protection
+setupCSRFToken();
 
 export { login, getUserInfo, logout };
